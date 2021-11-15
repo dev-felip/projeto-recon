@@ -1,0 +1,181 @@
+/*====================Global====================*/
+:root {
+  --azul-claro: #a5dbe2;
+  --azul-escuro: #287b85;
+  --verde-claro: #d9f4f8;
+  --verde-agua: #a5dbe2;
+  --azul-escuro: #2f838d;
+  --cinza-claro: #494949;
+  --cinza-opaco: #898989;
+  --escuro: #333333;
+  --fundo: #e5e5e5;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: var(--escuro);
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  margin: auto;
+}
+
+ul {
+  list-style: none;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 0 0 64px;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav ul li {
+  padding: 18px;
+  list-style: none;
+}
+
+nav li a {
+  font-family: 'Inter', sans-serif;
+  color: #333333;
+  text-decoration: none;
+}
+
+.fas {
+  font-size: 0.5rem;
+  color: #d9f4f8;
+}
+
+.fss {
+  margin: 12px;
+  font-size: 0.75rem;
+  color: #898989;
+}
+
+.faas {
+  padding-right: 50px;
+  font-size: 2rem;
+  color: #a5dbe2;
+}
+
+.organize {
+  width: 90%;
+  margin: auto;
+}
+
+.organize-two {
+  width: 85%;
+  margin: auto;
+}
+
+.banner h1 {
+  margin-top: 10%;
+  position: absolute;
+  font-weight: 400;
+  font-size: 48px;
+  width: 40%;
+  color: white;
+}
+
+.banner p {
+  margin-top: 30%;
+  position: absolute;
+  font-weight: 400;
+  font-size: 24px;
+  width: 30%;
+  color: white;
+}
+
+.banner img {
+  width: 100%;
+}
+
+.banner button {
+  position: absolute;
+  width: 304px;
+  height: 70px;
+  margin-top: 40%;
+  border-radius: 16px;
+  border: none;
+  background-color: var(--verde-agua);
+  color: var(--escuro);
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.banner button:hover {
+  transition: 2s;
+  background-color: var(--verde-claro);
+}
+
+.highlights {
+  width: 100%;
+  margin-bottom: 10%;
+}
+.highlights h1 {
+  font-weight: 400;
+  font-size: 48px;
+  margin-bottom: 5%;
+}
+
+.master {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.secondary {
+  align-items: center;
+  display: inline-block;
+  width: 40%;
+
+  margin-bottom: 5%;
+}
+
+.highlights p {
+  color: var(--cinza-opaco);
+  font-size: 14px;
+  margin: 2% auto;
+}
+
+.highlights img {
+  width: 40%;
+  align-items: center;
+  float: left;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+/*====================rodapé====================*/
+footer {
+  align-items: center;
+  height: 80px;
+}
+
+footer div {
+  margin: 70px 0 0 0;
+  display: grid;
+  grid-template-columns: 150px 250px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+footer ul {
+  display: flex;
+}
+
+footer li {
+  margin-left: 5%;
+}
